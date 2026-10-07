@@ -25,6 +25,8 @@
 .register-wrapper {
   display: flex;
   align-items: center;
+  width: 97px;
+  height: 40px;
 }
 
 .register-link {
