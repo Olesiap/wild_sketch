@@ -54,7 +54,7 @@
   margin: auto;
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 768.98px) {
   .mobile-menu-button {
     display: none;
   }
@@ -65,7 +65,7 @@
   margin-right: 32px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .navigation {
     display: none;
   }
