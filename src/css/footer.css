@@ -22,7 +22,8 @@
     flex-direction: row;
   }
 }
-.footer-navigation-item {
+.footer-navigation-item a:hover,
+.footer-navigation-item a:focus {
   font-weight: 500;
 }
 .footer-information {
@@ -44,5 +45,3 @@
     width: 1312px;
   }
 }
-
-

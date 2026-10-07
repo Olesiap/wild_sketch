@@ -5,6 +5,7 @@
   transition-timing-function: ease-in-out;
 }
 
-.navigation-item a {
+.navigation-item a,
+.footer-navigation-item a {
   transition: font-weight 250ms ease-in-out;
 }
