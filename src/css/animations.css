@@ -1,6 +1,8 @@
 /* Transitions */
-.register-link {
-  transition: background-color 250ms ease-in-out;
+.btn {
+  transition-property: background-color, opacity;
+  transition-duration: 250ms;
+  transition-timing-function: ease-in-out;
 }
 
 .navigation-item a {
