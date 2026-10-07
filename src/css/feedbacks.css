@@ -1,0 +1,70 @@
+.fb-title {
+  display: block;
+
+  font-family: 'Caveat', sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+@media only screen and (min-width: 1140px) {
+  .fb-title {
+    margin-bottom: 80px;
+  }
+}
+.fb-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+@media only screen and (min-width: 768px) {
+  .fb-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .fb-list {
+    gap: 32px;
+  }
+}
+.fb-item {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid rgba(12, 7, 8, 0.15);
+  border-radius: 16px;
+  padding: 32px;
+
+  background: #fff7f2;
+}
+@media only screen and (min-width: 768px) {
+  .fb-item {
+    width: calc((100% - 32px) / 2);
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .fb-item {
+    width: calc((100% - 32px * 2) / 3);
+  }
+}
+.fb-stars {
+  display: flex;
+  gap: 0;
+}
+.fb-icon {
+}
+.fb-text {
+  font-weight: 400;
+  font-size: 18px;
+}
+.fb-author {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+
+  margin-top: auto;
+}
+
