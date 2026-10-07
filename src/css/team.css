@@ -1,0 +1,80 @@
+.team {
+  background: #faf6f3;
+}
+
+.team-title {
+  font-family: 'Caveat', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #0c0708;
+  margin: 0;
+}
+
+.team-descripstion {
+  text-align: center;
+  margin: 24px 0 40px;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.team-item {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.team-content {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.team-img {
+  display: block;
+  width: 152px;
+  height: 152px;
+  margin: 0 auto;
+
+  border-radius: 50%;
+  object-fit: cover;
+  background-color: transparent;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+
+  .team-item {
+    width: calc((100% - 24px) / 2);
+    margin: 0;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1440px) {
+  .team-list {
+    column-gap: 32px;
+  }
+
+  .team-item {
+    width: calc((100% - 160px) / 6);
+  }
+}
