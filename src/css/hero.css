@@ -86,8 +86,7 @@ button {
     font-size: 56px;
     max-width: 601px;
   }
-  .hero-description {
-  }
+
   .hero-btn-container {
     flex-direction: row;
     gap: 24px;
