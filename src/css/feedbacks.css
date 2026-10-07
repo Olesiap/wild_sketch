@@ -54,8 +54,7 @@
   display: flex;
   gap: 0;
 }
-.fb-icon {
-}
+
 .fb-text {
   font-weight: 400;
   font-size: 18px;
@@ -67,4 +66,3 @@
 
   margin-top: auto;
 }
-
