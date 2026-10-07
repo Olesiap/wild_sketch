@@ -7,10 +7,28 @@ h1 {
   color: #0c0708;
 }
 
-.container {
+body {
   font-family: 'Tajawal', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
   color: #0c0708;
+}
+
+.register-link {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0c0708;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffb780;
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 105px;
+  height: 44px;
+  background-color: #ffb780;
 }
