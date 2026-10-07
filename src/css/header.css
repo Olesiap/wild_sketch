@@ -25,20 +25,23 @@
 .register-wrapper {
   display: flex;
   align-items: center;
+  width: 97px;
+  height: 40px;
 }
 
 .register-link {
-  font-weight: 500;
-  font-size: 16px;
-
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  padding: 8px 20px;
   width: 97px;
   height: 40px;
-  border: 1px solid #ffb780;
-  border-radius: 100px;
-  background-color: #ffb780;
+}
+
+.register-link:hover,
+.register-link:focus {
+  background-color: rgba(255, 183, 128, 0.5);
+}
+
+.register-link:active {
+  background-color: rgba(255, 183, 128, 0.7);
 }
 
 .mobile-menu-button {
@@ -74,4 +77,9 @@
 
 .navigation-item {
   font-size: 16px;
+}
+
+.navigation-item a:hover,
+.navigation-item a:focus {
+  font-weight: 500;
 }
