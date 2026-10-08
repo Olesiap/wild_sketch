@@ -1,0 +1,52 @@
+.team-description {
+  margin-bottom: 40px;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.team-item {
+  width: 100%;
+}
+
+.team-content {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.team-img {
+  width: 152px;
+  height: 152px;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .team-item {
+    width: calc((100% - 24px) / 2);
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1440px) {
+  .team-list {
+    column-gap: 32px;
+  }
+
+  .team-item {
+    width: calc((100% - 160px) / 6);
+  }
+}

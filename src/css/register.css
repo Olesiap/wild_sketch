@@ -1,0 +1,129 @@
+@media only screen and (min-width: 1440px) {
+  .register .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+  }
+}
+.register-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.register-title {
+  text-align: left;
+  margin-bottom: 32px;
+}
+.register-form {
+  width: 100%;
+}
+.register-form-field {
+  margin-bottom: 24px;
+}
+.register-form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.register-form-input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0c0708;
+
+  border: 1px solid rgba(12, 7, 8, 0.15);
+  background-color: rgba(12, 7, 8, 0.05);
+  border-radius: 12px;
+  outline: transparent;
+}
+
+.register-form-input:focus {
+  border: 1px solid #0c0708;
+}
+.register-form-input::placeholder {
+  color: rgba(12, 7, 8, 0.6);
+}
+.register-form-input:user-invalid {
+  border: 1px solid #b50000;
+}
+.register-form-input:user-invalid::placeholder {
+  color: #b50000;
+}
+.register-form-error {
+  margin-top: 4px;
+  display: none;
+  font-size: 16px;
+  color: #b50000;
+}
+.register-form-input:user-invalid + .register-form-error {
+  display: block;
+}
+
+.register-form-textarea {
+  margin-bottom: 24px;
+  padding: 12px;
+  width: 100%;
+  height: 180px;
+
+  font-size: 16px;
+  line-height: 1.5;
+  color: #0c0708;
+
+  border: 1px solid rgba(12, 7, 8, 0.15);
+  background-color: rgba(12, 7, 8, 0.05);
+  border-radius: 12px;
+  resize: none;
+  outline: transparent;
+}
+.register-form-textarea::placeholder {
+  color: rgba(12, 7, 8, 0.6);
+}
+.register-form-textarea:focus {
+  border: 1px solid rgba(12, 7, 8, 0.6);
+}
+.register-send-btn {
+  display: flex;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  .register-send-btn {
+    width: 340px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .register-send-btn {
+    width: 304px;
+    margin-bottom: 0px;
+  }
+}
+.register-image-wrapper {
+  width: 100%;
+}
+
+.register-image {
+  width: 100%;
+}
+@media only screen and (min-width: 768px) {
+  .register-image {
+    width: 704px;
+    height: 362px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .register-image {
+    width: 640px;
+    height: 734px;
+  }
+}

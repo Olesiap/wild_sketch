@@ -1,52 +1,73 @@
-:root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family:
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Open Sans',
-    'Helvetica Neue',
-    sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
+h1,
+.section-title {
+  font-family: 'Caveat', sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+  color: #0c0708;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+h1 {
+  font-size: 40px;
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.section-title {
+  font-size: 48px;
+  text-align: center;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
+  font-family: 'Tajawal', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0c0708;
+  background: #faf6f3;
 }
 
-main {
-  flex-grow: 1;
-}
-main:has(.back-link) {
+.section-description {
+  margin-top: 24px;
   text-align: center;
 }
-h2 {
-  font-family: 'tajawal';
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.1;
 
-  letter-spacing: -0.01em;
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 44px;
+  padding: 10px 24px;
+  border: 1px solid transparent;
+  border-radius: 100px;
 
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   color: #0c0708;
+  white-space: nowrap;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 0.5;
+}
+
+.btn:active {
+  opacity: 0.7;
+}
+
+.btn:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
+.btn-primary {
+  border-color: #ffb780;
+  background-color: #ffb780;
+}
+
+.btn-secondary {
+  border-color: rgba(12, 7, 8, 0.15);
+  background-color: transparent;
 }
