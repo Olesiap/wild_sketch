@@ -57,6 +57,11 @@ body {
   opacity: 0.7;
 }
 
+.btn:disabled {
+  opacity: 0.2;
+  cursor: not-allowed;
+}
+
 .btn-primary {
   border-color: #ffb780;
   background-color: #ffb780;

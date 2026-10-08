@@ -1,7 +1,7 @@
-<section class="register section">
+<section class="register section" id="register">
   <div class="container">
     <div class="register-content">
-      <h2 class="register-title">Register</h2>
+      <h2 class="section-title register-title">Register</h2>
       <form class="register-form" name="review_form">
         <!-- Name -->
         <div class="register-form-field">
@@ -49,7 +49,9 @@
           maxlength="500"
         ></textarea>
         <!-- Button -->
-        <button class="register-send-btn" type="submit">Register</button>
+        <button class="btn btn-primary register-send-btn" type="submit">
+          Register
+        </button>
       </form>
     </div>
 
@@ -57,10 +59,7 @@
       <img
         class="register-image"
         src="/img/register/register.jpg"
-        srcset="
-          ../img/register/register.jpg    1x,
-          ../img/register/register@2x.jpg 2x
-        "
+        srcset="/img/register/register.jpg 1x, /img/register/register@2x.jpg 2x"
         alt="Person drawing outdoors"
         width="335"
         height="286"
