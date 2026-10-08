@@ -25,6 +25,7 @@
 .footer-navigation-item a:hover,
 .footer-navigation-item a:focus {
   font-weight: 500;
+  opacity: 0.5;
 }
 .footer-information {
   font-size: 14px;

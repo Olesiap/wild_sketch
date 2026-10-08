@@ -67,4 +67,5 @@
 .navigation-item a:hover,
 .navigation-item a:focus {
   font-weight: 500;
+  opacity: 0.5;
 }
