@@ -56,6 +56,7 @@
   height: 317px;
   margin: 32px auto 0;
   object-fit: cover;
+  mix-blend-mode: multiply;
 }
 @media (min-width: 768px) {
   .benefits {
