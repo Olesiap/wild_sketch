@@ -58,9 +58,12 @@
 }
 
 .mobile-menu-link {
-  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 335px;
   height: 44px;
+  font-size: 22px;
 }
 
 .mobile-menu-link:hover,
