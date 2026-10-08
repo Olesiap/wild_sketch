@@ -52,10 +52,10 @@
   gap: 16px;
 }
 .benefits__image {
-  display: block;
-  width: 100%;
-  height: auto;
+  width: 335px;
+  height: 317px;
   margin-top: 32px;
+  object-fit: cover;
 }
 @media (min-width: 768px) {
   .benefits {
