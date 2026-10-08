@@ -1,104 +1,26 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wild Sketch</title>
-    <link rel="stylesheet" href="/wild_sketch/src/css/mobile-menu.css" />
-  </head>
-  <body>
-    <input type="checkbox" id="menu-toggle" class="menu-toggle" hidden />
-    <header class="header">
-      <div class="container header-wrapper">
-        <!-- Logo -->
-        <div class="header-logo">
-          <a href="#" class="header-logo-link" aria-label="Wild Sketch — home">
-            <svg
-              class="header-logo-icon"
-              width="70"
-              height="48"
-              aria-hidden="true"
-            >
-              <use href="/wild_sketch/src/img/sprite.svg#logo"></use>
-            </svg>
-          </a>
-        </div>
+<!-- Mobile menu -->
+<div class="mobile-menu is-open" id="mobile-menu">
+  <div class="mobile-menu-top">
+    <svg class="mobile-menu-logo" width="117" height="58">
+      <use href="/img/sprite.svg#logo"></use>
+    </svg>
+    <div class="mobile-menu-actions">
+      <a class="btn btn-primary register-link" href="#register">Register</a>
+      <button class="mobile-menu-close" type="button" aria-label="Close menu">
+        <svg class="mobile-menu-close-icon" width="12" height="12">
+          <use href="/img/sprite.svg#close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
 
-        <!-- Navigation -->
-        <nav class="navigation" aria-label="Main navigation">
-          <ul class="navigation-list">
-            <li class="navigation-item"><a href="#benefits">Benefits</a></li>
-            <li class="navigation-item"><a href="#gallery">Gallery</a></li>
-            <li class="navigation-item"><a href="#events">Events</a></li>
-            <li class="navigation-item"><a href="#team">Team</a></li>
-            <li class="navigation-item"><a href="#feedbacks">Feedbacks</a></li>
-          </ul>
-        </nav>
-
-        <!-- Register + бургер -->
-        <div class="header-right">
-          <a class="register-link" href="#contact">Register</a>
-
-          <label
-            class="mobile-menu-button"
-            type="button"
-            aria-label="open menu"
-          >
-            <svg
-              class="mobile-menu-button-icon"
-              width="24"
-              height="24"
-              aria-hidden="true"
-            >
-              <use href="/wild_sketch/src/img/sprite.svg#menu"></use>
-            </svg>
-          </label>
-        </div>
-      </div>
-    </header>
-
-    <!--burger-menu-->
-    <nav class="mobile-menu" aria-label="Mobile navigation">
-      <div class="mobile-menu-top">
-        <a href="#" class="mobile-menu-logo" aria-label="Wild Sketch — home">
-          <svg
-            class="mobile-menu-logo-icon"
-            width="70"
-            height="48"
-            aria-hidden="true"
-          >
-            <use href="/wild_sketch/src/img/sprite.svg#logo"></use>
-          </svg>
-        </a>
-
-        <div class="mobile-menu-actions">
-          <a class="register-link" href="#contact">Register</a>
-
-          <label
-            class="mobile-menu-close"
-            for="menu-toggle"
-            aria-label="Close menu"
-          >
-            <svg
-              class="mobile-menu-close-icon"
-              width="12"
-              height="12"
-              aria-hidden="true"
-            >
-              <use href="/wild_sketch/src/img/sprite.svg#close"></use>
-            </svg>
-          </label>
-        </div>
-      </div>
-
-      <ul class="mobile-menu-list">
-        <li><a href="#benefits">Benefits</a></li>
-        <li><a href="#gallery">Gallery</a></li>
-        <li><a href="#events">Events</a></li>
-        <li><a href="#team">Team</a></li>
-        <li><a href="#feedbacks">Feedbacks</a></li>
-      </ul>
-    </nav>
-  </body>
-  М
-</html>
+  <nav class="mobile-menu-nav">
+    <ul class="mobile-menu-list">
+      <li><a class="mobile-menu-link" href="#benefits">Benefits</a></li>
+      <li><a class="mobile-menu-link" href="#gallery">Gallery</a></li>
+      <li><a class="mobile-menu-link" href="#events">Events</a></li>
+      <li><a class="mobile-menu-link" href="#team">Team</a></li>
+      <li><a class="mobile-menu-link" href="#feedbacks">Feedbacks</a></li>
+    </ul>
+  </nav>
+</div>
