@@ -7,7 +7,7 @@
 
 .navigation-item a,
 .footer-navigation-item a {
-  transition-property: font-weight, opacity;
+  transition-property: opacity;
   transition-duration: 250ms;
   transition-timing-function: ease-in-out;
 }
