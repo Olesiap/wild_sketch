@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" crossorigin href="/wild_sketch/assets/index-w07Yahr-.css">
+    <link rel="stylesheet" crossorigin href="/wild_sketch/assets/index-BR0YS3xB.css">
   </head>
   <body>
     <header class="header">
@@ -35,7 +35,12 @@
     </ul>
     <div class="register-wrapper">
       <a class="btn btn-primary register-link" href="#register">Register</a>
-      <button class="mobile-menu-button" type="button">
+      <button
+        class="mobile-menu-button"
+        type="button"
+        aria-label="Open menu"
+        aria-controls="mobile-menu"
+      >
         <svg class="mobile-menu-button-icon" width="24" height="24">
           <use href="/wild_sketch/assets/sprite-Bp5DWtSD.svg#menu"></use>
         </svg>
@@ -625,6 +630,33 @@
     <p class="footer-information">© 2025 WildDraw. All rights reserved.</p>
   </div>
 </footer>
+
+    <!-- Mobile menu -->
+<div class="mobile-menu is-open" id="mobile-menu">
+  <div class="mobile-menu-top">
+    <svg class="mobile-menu-logo" width="117" height="58">
+      <use href="/wild_sketch/assets/sprite-Bp5DWtSD.svg#logo"></use>
+    </svg>
+    <div class="mobile-menu-actions">
+      <a class="btn btn-primary register-link" href="#register">Register</a>
+      <button class="mobile-menu-close" type="button" aria-label="Close menu">
+        <svg class="mobile-menu-close-icon" width="12" height="12">
+          <use href="/wild_sketch/assets/sprite-Bp5DWtSD.svg#close"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <nav class="mobile-menu-nav">
+    <ul class="mobile-menu-list">
+      <li><a class="mobile-menu-link" href="#benefits">Benefits</a></li>
+      <li><a class="mobile-menu-link" href="#gallery">Gallery</a></li>
+      <li><a class="mobile-menu-link" href="#events">Events</a></li>
+      <li><a class="mobile-menu-link" href="#team">Team</a></li>
+      <li><a class="mobile-menu-link" href="#feedbacks">Feedbacks</a></li>
+    </ul>
+  </nav>
+</div>
 
   </body>
 </html>
