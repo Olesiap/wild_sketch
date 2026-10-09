@@ -2,16 +2,6 @@
   background-color: #faf6f3;
 }
 
-.gallery-title {
-  font-family: 'Caveat', sans-serif;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 1.1;
-  letter-spacing: -0.01em;
-  text-align: center;
-  color: #0c0708;
-}
-
 .gallery-text {
   margin: 16px 0 32px;
   font-family: 'Tajawal', sans-serif;
