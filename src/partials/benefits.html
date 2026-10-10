@@ -46,13 +46,24 @@
         </li>
       </ul>
     </div>
-    <img
-      class="benefits-image"
-      src="/img/benefits/Joomsept.jpg"
-      srcset="/img/benefits/Joomsept.jpg 1x, /img/benefits/Joomsept@2x.jpg 2x"
-      alt="Hand-drawn illustrations of animals and leaves"
-      width="335"
-      height="317"
-    />
+    <picture>
+      <source
+        type="image/webp"
+        srcset="
+          /img/benefits/Joomsept.webp    1x,
+          /img/benefits/Joomsept@2x.webp 2x
+        "
+      />
+      <img
+        class="benefits-image"
+        src="/img/benefits/Joomsept.jpg"
+        srcset="/img/benefits/Joomsept.jpg 1x, /img/benefits/Joomsept@2x.jpg 2x"
+        alt="Hand-drawn illustrations of animals and leaves"
+        width="335"
+        height="317"
+        loading="lazy"
+        decoding="async"
+      />
+    </picture>
   </div>
 </section>

@@ -60,14 +60,28 @@
     </div>
 
     <div class="register-image-wrapper">
-      <img
-        class="register-image"
-        src="/img/register/register.jpg"
-        srcset="/img/register/register.jpg 1x, /img/register/register@2x.jpg 2x"
-        alt="Person drawing outdoors"
-        width="335"
-        height="286"
-      />
+      <picture>
+        <source
+          type="image/webp"
+          srcset="
+            /img/register/register.webp    1x,
+            /img/register/register@2x.webp 2x
+          "
+        />
+        <img
+          class="register-image"
+          src="/img/register/register.jpg"
+          srcset="
+            /img/register/register.jpg    1x,
+            /img/register/register@2x.jpg 2x
+          "
+          alt="Person drawing outdoors"
+          width="335"
+          height="286"
+          loading="lazy"
+          decoding="async"
+        />
+      </picture>
     </div>
   </div>
 </section>
