@@ -11,7 +11,7 @@
 }
 .benefits-list {
   margin: 0;
-  padding: 8px 0;
+  padding: 8px 0 0;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -74,7 +74,7 @@
     padding-right: 32px;
   }
   .benefits-content {
-    width: 100%;
+    max-width: 704px;
   }
   .benefits-image {
     width: 522px;

@@ -3,6 +3,10 @@
   background-color: #faf6f3;
 }
 
+.gallery-title {
+  margin-bottom: 24px;
+}
+
 .gallery-text {
   margin: 0 0 32px;
   font-family: 'Tajawal', sans-serif;
