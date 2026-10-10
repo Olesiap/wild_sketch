@@ -6,6 +6,23 @@
   padding: 3px 12px 3px 20px;
 }
 
+.header-logo-link,
+.mobile-menu-logo-link,
+.footer-logo-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  text-decoration: none;
+  line-height: 0;
+}
+
+.header-logo,
+.mobile-menu-logo,
+.footer-ill {
+  display: block;
+}
+
 @media screen and (min-width: 768px) {
   .header-wrapper {
     padding: 7px 32px;

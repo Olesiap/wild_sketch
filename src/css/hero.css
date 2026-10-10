@@ -1,3 +1,7 @@
+.hero {
+  padding: 64px 0;
+}
+
 .hero-content {
   width: 100%;
   margin-bottom: 32px;
@@ -29,6 +33,10 @@
 }
 
 @media only screen and (min-width: 768px) {
+  .hero {
+    padding: 80px 0;
+  }
+
   .hero-img {
     max-width: 704px;
   }
@@ -54,6 +62,10 @@
 }
 
 @media only screen and (min-width: 1440px) {
+  .hero {
+    padding: 112px 0;
+  }
+
   .hero .container {
     display: flex;
     flex-direction: row;
@@ -67,6 +79,7 @@
   }
   .hero-content {
     max-width: 423px;
+    margin-bottom: 0;
   }
   .hero-btn-register {
     width: 105px;

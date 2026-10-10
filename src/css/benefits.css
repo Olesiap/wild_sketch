@@ -1,8 +1,7 @@
 .benefits {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0;
 }
-.benefits__title {
+.benefits-title {
   margin: 0 0 32px;
   font-family: 'Caveat', cursive;
   font-size: 40px;
@@ -10,7 +9,7 @@
   line-height: 1.2;
   letter-spacing: -0.4px;
 }
-.benefits__list {
+.benefits-list {
   margin: 0;
   padding: 8px 0;
   display: flex;
@@ -18,17 +17,17 @@
   gap: 32px;
   list-style: none;
 }
-.benefits__item {
+.benefits-item {
   display: flex;
   align-items: flex-start;
   gap: 24px;
 }
-.benefits__icon {
+.benefits-icon {
   width: 48px;
   height: 48px;
   flex-shrink: 0;
 }
-.benefits__item-title {
+.benefits-item-title {
   margin: 0;
   font-family: 'Tajawal', sans-serif;
   font-size: 24px;
@@ -37,7 +36,7 @@
   letter-spacing: -0.24px;
   color: #0c0708;
 }
-.benefits__item-text {
+.benefits-item-text {
   margin: 0;
   font-family: 'Tajawal', sans-serif;
   font-size: 16px;
@@ -46,30 +45,38 @@
   letter-spacing: 0;
   color: #0c0708;
 }
-.benefits__item-content {
+.benefits-item-content {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-.benefits__image {
+.benefits-image {
   width: 335px;
   height: 317px;
   margin: 32px auto 0;
   object-fit: cover;
   mix-blend-mode: multiply;
 }
+.benefits .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 @media (min-width: 768px) {
   .benefits {
-    padding: 40px 32px;
+    padding: 40px 0;
   }
 
   .benefits .container {
-    padding: 0;
     display: flex;
     flex-direction: column;
     gap: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
-  .benefits__image {
+  .benefits-content {
+    width: 100%;
+  }
+  .benefits-image {
     width: 522px;
     height: 494px;
     margin-top: 0;
@@ -78,27 +85,28 @@
 }
 @media (min-width: 1440px) {
   .benefits {
-    padding: 112px 64px;
+    padding: 112px 0;
   }
   .benefits .container {
-    padding: 0;
     display: flex;
     flex-direction: row;
     gap: 80px;
+    padding-left: 64px;
+    padding-right: 64px;
   }
-  .benefits__image {
+  .benefits-image {
     order: -1;
     width: 616px;
     height: 586px;
     margin: 0;
   }
-  .benefits__content {
+  .benefits-content {
     display: flex;
     flex-direction: column;
     gap: 32px;
     width: 616px;
   }
-  .benefits__title {
+  .benefits-title {
     margin-bottom: 0;
   }
 }

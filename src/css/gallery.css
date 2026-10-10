@@ -1,9 +1,10 @@
 .gallery {
+  padding: 64px 0;
   background-color: #faf6f3;
 }
 
 .gallery-text {
-  margin: 16px 0 32px;
+  margin: 0 0 32px;
   font-family: 'Tajawal', sans-serif;
   font-weight: 400;
   font-size: 18px;

@@ -1,3 +1,7 @@
+.feedbacks {
+  padding: 64px 0;
+}
+
 .fb-title {
   margin-bottom: 32px;
 }
@@ -10,6 +14,9 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 @media only screen and (min-width: 768px) {
   .fb-list {
@@ -43,6 +50,15 @@
   }
 }
 .fb-stars {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.fb-star-item {
   display: flex;
 }
 

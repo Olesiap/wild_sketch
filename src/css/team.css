@@ -1,5 +1,13 @@
+.team {
+  padding: 64px 0;
+}
+
+.team-title {
+  margin-bottom: 0;
+}
+
 .team-description {
-  margin-bottom: 40px;
+  margin: 0 0 40px;
 }
 
 .team-list {

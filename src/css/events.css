@@ -1,9 +1,17 @@
+.event {
+  padding: 64px 0;
+}
+
 .event-title {
   text-align: left;
 }
 
+.event-description {
+  margin: 0 0 32px;
+}
+
 .event-list {
-  margin-top: 32px;
+  margin: 0;
 }
 
 .event-item {
